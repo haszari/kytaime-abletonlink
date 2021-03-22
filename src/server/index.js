@@ -1,11 +1,11 @@
 const path = require( 'path' );
-var express = require( 'express' );
-var app = express();
+const express = require( 'express' );
+const app = express();
 
 // dev or production (so we can serve up appropriate client stuff)
 // const DEVELOPMENT = process.env.NODE_ENV === 'development';
 
-var webPort = 3876;
+const webPort = 3876;
 
 // if ( DEVELOPMENT ) {
 //   // serve up webpacked client-side app
@@ -18,12 +18,12 @@ var webPort = 3876;
 console.log( "We're serving up production from dist/www/" );
 
 // Serve up media (for access to stems)
-app.use(
-  '/media',
-  express.static(
-    path.join( process.env.HOME, '/Music/iTunes/iTunes Media/Music' )
-  )
-);
+// app.use(
+//   '/media',
+//   express.static(
+//     path.join( process.env.HOME, '/Music/iTunes/iTunes Media/Music' )
+//   )
+// );
 
 // serve built react app
 app.use( express.static( path.join( process.env.APP_PATH, '/dist' ) ) );
