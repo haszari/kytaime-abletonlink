@@ -6,8 +6,7 @@ const aliases = require('./webpack-aliases');
 
 const Config = {
   entry: {
-    main: './src/apps/throwdown/index.js',
-    'import-midi': './src/apps/import-midi/index.js'
+    main: './src/apps/linkautomation/index.js',
   },
   mode: process.env['NODE_ENV'] || 'production',
   devtool: process.env['NODE_ENV'] === 'development' ? 'source-map' : false,
