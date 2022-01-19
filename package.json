@@ -16,8 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "7.16.8",
-    "@babel/core": "7.16.7",
-    "@babel/preset-env": "7.16.8",
+    "@babel/core": "7.16.10",
+    "@babel/preset-env": "7.16.10",
     "@babel/preset-react": "7.16.7",
     "@reduxjs/toolkit": "1.7.1",
     "abletonlink": "0.1.3",
