@@ -26,7 +26,7 @@
     "color": "3.2.1",
     "css-loader": "5.2.7",
     "electron": "12.2.3",
-    "electron-packager": "15.4.0",
+    "electron-packager": "15.5.1",
     "eslint": "7.32.0",
     "eslint-config-standard": "16.0.3",
     "eslint-loader": "4.0.2",
