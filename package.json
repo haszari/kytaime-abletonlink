@@ -15,9 +15,9 @@
   "author": "kytaime@cartoonbeats.com",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "7.24.7",
-    "@babel/core": "7.24.7",
-    "@babel/preset-env": "7.24.7",
+    "@babel/cli": "7.24.8",
+    "@babel/core": "7.24.9",
+    "@babel/preset-env": "7.24.8",
     "@babel/preset-react": "7.24.7",
     "@reduxjs/toolkit": "1.9.7",
     "abletonlink": "0.1.3",
